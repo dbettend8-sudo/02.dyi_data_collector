@@ -1,4 +1,4 @@
-## 🎯 Goals
+# Goals
 
 - Provide a **simple, generalized tool** for collecting data into Google Sheets with minimal friction.  
 - Reduce input steps: **open → type → choose category → auto-fill date → submit**.  
