@@ -15,3 +15,20 @@ So I designed a simple data collector app in AppSheet, connected directly to Goo
 The result is higher quality data, because the process is lightweight enough to sustain every day.  
 
 This project has two parts. In Part 1 we create the database and the app that writes to it. Then we wait for the database to grow. In Part 2 we connect reporting tools to read from the database and turn raw logs into visual insights.
+
+**Data collection is only valuable once it feeds into insights. That’s when logging becomes learning.**
+
+**Part 2 — Connecting reporting to personal finance data**
+
+With the database in place and new entries flowing in every day, the next step is to connect it to a reporting layer.  
+
+I used Looker Studio to build a lightweight dashboard on top of my Google Sheets database. The goal is not complexity, but clarity:  
+- expenses grouped by category  
+- income vs expenses over time  
+- simple filters for drilling down  
+
+The key is that the data quality holds up because the collection process is frictionless. The dashboard is only as good as the input that drives it.  
+
+With this second step, the full loop is complete:  
+**Collector → Database → Dashboard**  
+A simple system for tracking personal finances with structure, quality, and visibility.
