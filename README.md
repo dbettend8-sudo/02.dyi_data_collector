@@ -8,12 +8,6 @@
 - Document the process so others can **replicate or adapt** it easily.  
 - Evolve into a full tutorial + shareable template over time.
 
-# Data Collector — Part 1  
-*Building the foundation for personal finance tracking*
-
-This guide walks through creating a simple **data collector app** in AppSheet connected to Google Sheets. The goal is to make expense and income logging effortless, so that data quality stays high and consistent.
-
----
 
 # Data Collector — Part 1  
 *Building the foundation for personal finance tracking*
