@@ -19,8 +19,8 @@ The goal is to make expense and income logging effortless, so data quality stays
 
 ## 🏁 All you need to get started
 
-- A **Google account** (free)  
-- Access to **Google Sheets**  
+- A **Google account** (free) 
+- Access to **Google Sheets**
 - An **AppSheet account** (linked to your Google account, free tier works)  
 - 30 minutes of focused time  
 
@@ -30,20 +30,18 @@ That’s it — no code required.
 
 ---
 
-## 📦 Box Contents  
+## 📦 Box Contents
 
-- 1 Google Sheet with 3 tabs:  
+- 1 Google Sheet with 5 tabs:  
   - `Expenses` → for spending  
   - `Income` → for earnings  
-  - `Staging` → temporary input buffer  
-
-- 2 lookup tabs for categories:  
+  - `Staging` → temporary input buffer   
   - `ExpensesTypes` → distinct expense types  
   - `IncomeTypes` → distinct income types  
 
-*(Think of these as your wooden panels and screws)*  
 
-![screenshot of google sheet with all 5 tabs](prints/sheet-tabs.png)
+
+[Open the template Google Sheet (make a copy)]([https://docs.google.com/spreadsheets/d/FILE_ID/copy](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy))
 
 ---
 
