@@ -48,7 +48,7 @@ You can use this link to make a copy of the document in your google account. Mak
 
 ---
 
-## 🪛 Step 1: Connect to AppSheet
+## Step 1: Connect to AppSheet
 
 - Go to [AppSheet](https://www.appsheet.com/)  
 - **Start with your own data** → select your spreadsheet  
@@ -59,7 +59,7 @@ You can use this link to make a copy of the document in your google account. Mak
 
 ---
 
-## 🔩 Step 2: Configure Columns  
+## Step 2: Configure Columns  
 
 ### In `Staging`  
 
@@ -92,7 +92,7 @@ You can use this link to make a copy of the document in your google account. Mak
 
 ---
 
-## 🔨 Step 3: Build the Form  
+## Step 3: Build the Form  
 
 - Go to **UX → Views → + New view**  
   - Name: `Add Row`  
@@ -101,11 +101,11 @@ You can use this link to make a copy of the document in your google account. Mak
 
 - Column order: `Mode → Label → Type → Value → Date`  
 
-![screenshot of form view](Captura_4.png)
+![screenshot of form view](Captura_41.png)
 
 ---
 
-## 🔗 Step 4: Add the Actions  
+## Step 4: Add the Actions  
 
 Create 4 actions in **Behavior → Actions**:  
 
@@ -128,17 +128,17 @@ Create 4 actions in **Behavior → Actions**:
    - Do this: *Grouped: execute a sequence of actions*  
    - Actions: Add to Expenses, Add to Income, Delete Staging  
 
-![screenshot of actions list](prints/appsheet-actions.png)
+![screenshot of actions list](Captura_5.png)
 
 ---
 
 ## 🖲 Step 5: Hook Submit to the Form  
 
-- Go to **UX → Views → Data Entry (Form)**  
+- Go to **UX → Views → Add Row (Form)**  
 - Under **Event actions → Form Saved** select `Submit`  
 - Set **Auto save = ON** for smoother experience  
 
-![screenshot of form saved config](prints/form-saved.png)
+![screenshot of form saved config](Captura_6.png)
 
 ---
 
@@ -149,8 +149,10 @@ Create 4 actions in **Behavior → Actions**:
   - Row should appear in `Expenses`, staging clears  
 - Select **Income** → repeat  
 
-![screenshot of sheet updating with new row](prints/sheet-updated.png)
-
+<p align="center">
+  <img src="prints/Captura_702.png" width="45%" />
+  <img src="prints/Captura_701.png" width="45%" />
+</p>
 ---
 
 ## 🎉 Result  
