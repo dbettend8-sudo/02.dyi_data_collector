@@ -15,6 +15,27 @@ This guide walks through creating a simple **data collector app** in AppSheet co
 
 ---
 
+# Data Collector — Part 1  
+*Building the foundation for personal finance tracking*
+
+This project shows how to assemble a simple data collection app in AppSheet that writes directly into Google Sheets.  
+The goal is to make expense and income logging effortless, so data quality stays high and consistent.
+
+---
+
+## 🏁 All you need to get started
+
+- A **Google account** (free)  
+- Access to **Google Sheets**  
+- An **AppSheet account** (linked to your Google account, free tier works)  
+- 30 minutes of focused time  
+
+That’s it — no code required.
+
+![screenshot of appsheet sign-in](prints/appsheet-signin.png)
+
+---
+
 ## 📦 Box Contents  
 
 - 1 Google Sheet with 3 tabs:  
