@@ -26,7 +26,7 @@ The goal is to make expense and income logging effortless, so data quality stays
 
 That’s it — no code required.
 
-![screenshot of appsheet sign-in](prints/appsheet-signin.png)
+![screenshot of appsheet sign-in](Captura_1.png)
 
 ---
 
