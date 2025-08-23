@@ -1,0 +1,17 @@
+**Good data starts at the moment of collection. If the process is clunky, the dataset will never be reliable.**
+
+**Part 1 — Building the foundation for personal finance tracking**
+
+Every analysis depends on the quality of the data behind it. But when it comes to personal finance, poor user experience is often the main reason data quality breaks down.  
+
+If it takes too long to log a transaction, the habit fades and the dataset loses consistency. That was happening with my current approach: too many clicks, too much friction.  
+
+So I designed a simple data collector app in AppSheet, connected directly to Google Sheets. The focus is on making data entry effortless:  
+- clear categories to reduce ambiguity  
+- date automatically set to today  
+- fast toggle between income and expenses  
+- one tap to save  
+
+The result is higher quality data, because the process is lightweight enough to sustain every day.  
+
+This project has two parts. In Part 1 we create the database and the app that writes to it. Then we wait for the database to grow. In Part 2 we connect reporting tools to read from the database and turn raw logs into visual insights.
