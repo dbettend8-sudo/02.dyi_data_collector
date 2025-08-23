@@ -17,20 +17,22 @@ The goal is to make expense and income logging effortless, so data quality stays
 
 ---
 
-## 🏁 All you need to get started
+## All you need
 
 - A **Google account** (free) 
 - Access to **Google Sheets**
 - An **AppSheet account** (linked to your Google account, free tier works)  
 - 30 minutes of focused time  
 
-That’s it — no code required.
+No code required!
 
 ![screenshot of appsheet sign-in](Captura_1.png)
 
 ---
 
-## 📦 Box Contents
+## Resources
+
+I'm using the structure bellow
 
 - 1 Google Sheet with 5 tabs:  
   - `Expenses` → for spending  
@@ -40,19 +42,20 @@ That’s it — no code required.
   - `IncomeTypes` → distinct income types  
 
 
+You can use this link to make a copy of the document in your google account. Make sure to delete the dummy data on all the tables!
 
 ([https://docs.google.com/spreadsheets/d/FILE_ID/copy](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy))
 
 ---
 
-## 🪛 Step 1: Connect to AppSheet  
+## 🪛 Step 1: Connect to AppSheet
 
 - Go to [AppSheet](https://www.appsheet.com/)  
 - **Start with your own data** → select your spreadsheet  
 - In **Data → Tables**, add all 5 sheets  
 - Regenerate each table so AppSheet recognizes the columns  
 
-![screenshot of appsheet tables](prints/appsheet-tables.png)
+![screenshot of appsheet tables](Captura_2.png)
 
 ---
 
@@ -85,20 +88,20 @@ That’s it — no code required.
 - **Date** → Date  
   - Initial value: `TODAY()`  
 
-![screenshot of column config](prints/staging-columns.png)
+![screenshot of column config](Captura_3.png)
 
 ---
 
 ## 🔨 Step 3: Build the Form  
 
 - Go to **UX → Views → + New view**  
-  - Name: `Data Entry`  
+  - Name: `Add Row`  
   - For this data: `Staging`  
   - View type: Form  
 
 - Column order: `Mode → Label → Type → Value → Date`  
 
-![screenshot of form view](prints/staging-form.png)
+![screenshot of form view](Captura_4.png)
 
 ---
 
