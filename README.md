@@ -42,10 +42,11 @@ I'm using the structure bellow
   - `IncomeTypes` → distinct income types  
 
 
-You can use this link to make a copy of the document in your google account. Make sure to delete the dummy data on all the tables!
+You can use this link to make a copy of the document in your google account. Make sure you enable editing and delete the dummy data on all the tables!
 
 ([https://docs.google.com/spreadsheets/d/FILE_ID/copy](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy))
 
+While you are at it you can add a few categories to the Types tables...
 ---
 
 ## Step 1: Connect to AppSheet
@@ -142,20 +143,20 @@ Create 4 actions in **Behavior → Actions**:
 
 ---
 
-## ✅ Step 6: Test  
+## Step 6: Test  
 
 - Open the app preview (phone view)  
 - Select **Expenses** → fill out form → Save  
   - Row should appear in `Expenses`, staging clears  
 - Select **Income** → repeat  
 
-<p align="center">
-  <img src="prints/Captura_702.png" width="45%" />
-  <img src="prints/Captura_701.png" width="45%" />
-</p>
+| ![First](Captura_701.png) | ![Second](Captura_702.png) |
+|----------------------------------|-----------------------------------|
+
+
 ---
 
-## 🎉 Result  
+## In summanry
 
 You now have:  
 - A fast, structured data entry app  
