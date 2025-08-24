@@ -47,6 +47,9 @@ You can use this link to make a copy of the document in your google account. Mak
 ([https://docs.google.com/spreadsheets/d/FILE_ID/copy](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy))
 
 While you are at it you can add a few categories to the Types tables...
+
+| ![First](Captura_104.png) | ![Second](Captura_105.png) |
+|----------------------------------|-----------------------------------|
 ---
 
 ## Step 1: Connect to AppSheet
