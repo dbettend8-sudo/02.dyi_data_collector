@@ -1,12 +1,10 @@
-No code required!
-
-![screenshot of appsheet sign-in](prints/cover.png)
-
-# Data Collector — Part 1  
+# Data Collector — Part 1 
 *Building the foundation for personal finance tracking*
 
 This project shows how to assemble a simple data collection app in AppSheet that writes directly into Google Sheets.  
 The goal is to make expense and income logging effortless, so data quality stays high and consistent.
+
+<img src="prints/cover_pt1.png" alt="Cover" width="70%"/>
 
 ---
 
@@ -19,15 +17,15 @@ The goal is to make expense and income logging effortless, so data quality stays
 
 No code required!
 
-![screenshot of appsheet sign-in](prints/Captura_1.png)
+<img src="prints/Captura_1.png" alt="Capture" width="85%"/>
 
 ---
 
 ## Resources
 
-I'm using the structure bellow
+For the "data base" We'll use and Google Sheet document with the following structure: 
 
-- 1 Google Sheet with 5 tabs:  
+- 1 document with 5 tabs:  
   - `Expenses` → for spending  
   - `Income` → for earnings  
   - `Staging` → temporary input buffer   
@@ -84,7 +82,7 @@ While you are at it confirm the categories on the IncomeTypes/ExpensesTypes shee
 - **Date** → Date  
   - Initial value: `TODAY()`  
 
-![screenshot of column config](prints/Captura_3.png)
+<img src="prints/Captura_3.png" alt="Capture" width="80%"/>
 
 ---
 
@@ -134,7 +132,7 @@ Create 4 actions in **Behavior → Actions**:
 - Under **Event actions → Form Saved** select `Submit`  
 - Set **Auto save = ON** for smoother experience  
 
-![screenshot of form saved config](prints/Captura_6.png)
+<img src="prints/Captura_6.png" alt="Capture" width="70%"/>
 
 ---
 
@@ -158,6 +156,8 @@ You now have:
 - A clean database in Google Sheets  
 - Categories pulled dynamically from lookup tables  
 
+---
+
 **Next (Part 2):** connect this database to reporting tools (Looker Studio) to generate insights.  
 
----
+<img src="prints/cover_pt2.png" alt="Cover" width="70%"/>
