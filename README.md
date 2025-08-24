@@ -126,7 +126,7 @@ Create 4 actions in **Behavior → Actions**:
 
 ---
 
-## 🖲 Step 5: Hook Submit to the Form  
+## Step 5: Hook Submit to the Form  
 
 - Go to **UX → Views → Add Row (Form)**  
 - Under **Event actions → Form Saved** select `Submit`  
