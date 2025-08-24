@@ -1,14 +1,3 @@
-# Goals
-
-- Provide a **simple, generalized tool** for collecting data into Google Sheets with minimal friction.  
-- Reduce input steps: **open → type → choose category → auto-fill date → submit**.  
-- Support **flexible use cases** like journaling, expense tracking, habit logging, or quick notes.  
-- Leverage **AppSheet** for a no-code, mobile-friendly interface.  
-- Keep the setup **extensible** so users can add fields, categories, and validation as needed.  
-- Document the process so others can **replicate or adapt** it easily.  
-- Evolve into a full tutorial + shareable template over time.
-
-
 # Data Collector — Part 1  
 *Building the foundation for personal finance tracking*
 
@@ -41,14 +30,13 @@ I'm using the structure bellow
   - `ExpensesTypes` → distinct expense types  
   - `IncomeTypes` → distinct income types  
 
-
-You can use this link to make a copy of the document in your google account. Make sure you enable editing and delete the dummy data on all the tables!
+You can use this link to make a copy of the document in your google account. Make sure you enable editing and delete the dummy data from sheets Income/Expenses.
 
 ([https://docs.google.com/spreadsheets/d/FILE_ID/copy](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy))
 
-While you are at it you can add a few categories to the Types tables...
+While you are at it confirm the categories on the IncomeTypes/ExpensesTypes sheets; costumized them to feet your needs.
 
-| ![First](Captura_104.png) | ![Second](Captura_105.png) |
+| ![First](Captura_1004.png) | ![Second](Captura_1005.png) |
 |----------------------------------|-----------------------------------|
 ---
 
