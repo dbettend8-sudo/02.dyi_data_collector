@@ -1,3 +1,7 @@
+No code required!
+
+![screenshot of appsheet sign-in](prints/cover.png)
+
 # Data Collector — Part 1  
 *Building the foundation for personal finance tracking*
 
@@ -15,7 +19,7 @@ The goal is to make expense and income logging effortless, so data quality stays
 
 No code required!
 
-![screenshot of appsheet sign-in](Captura_1.png)
+![screenshot of appsheet sign-in](prints/Captura_1.png)
 
 ---
 
@@ -36,7 +40,7 @@ You can use this link to make a copy of the document in your google account. Mak
 
 While you are at it confirm the categories on the IncomeTypes/ExpensesTypes sheets; costumized them to feet your needs.
 
-| ![First](Captura_1004.png) | ![Second](Captura_1005.png) |
+| ![First](prints/Captura_1004.png) | ![Second](prints/Captura_1005.png) |
 |----------------------------------|-----------------------------------|
 ---
 
@@ -47,7 +51,7 @@ While you are at it confirm the categories on the IncomeTypes/ExpensesTypes shee
 - In **Data → Tables**, add all 5 sheets  
 - Regenerate each table so AppSheet recognizes the columns  
 
-![screenshot of appsheet tables](Captura_2.png)
+![screenshot of appsheet tables](prints/Captura_2.png)
 
 ---
 
@@ -80,7 +84,7 @@ While you are at it confirm the categories on the IncomeTypes/ExpensesTypes shee
 - **Date** → Date  
   - Initial value: `TODAY()`  
 
-![screenshot of column config](Captura_3.png)
+![screenshot of column config](prints/Captura_3.png)
 
 ---
 
@@ -93,7 +97,7 @@ While you are at it confirm the categories on the IncomeTypes/ExpensesTypes shee
 
 - Column order: `Mode → Label → Type → Value → Date`  
 
-![screenshot of form view](Captura_41.png)
+![screenshot of form view](prints/Captura_41.png)
 
 ---
 
@@ -120,7 +124,7 @@ Create 4 actions in **Behavior → Actions**:
    - Do this: *Grouped: execute a sequence of actions*  
    - Actions: Add to Expenses, Add to Income, Delete Staging  
 
-![screenshot of actions list](Captura_5.png)
+![screenshot of actions list](prints/Captura_5.png)
 
 ---
 
@@ -130,7 +134,7 @@ Create 4 actions in **Behavior → Actions**:
 - Under **Event actions → Form Saved** select `Submit`  
 - Set **Auto save = ON** for smoother experience  
 
-![screenshot of form saved config](Captura_6.png)
+![screenshot of form saved config](prints/Captura_6.png)
 
 ---
 
@@ -141,7 +145,7 @@ Create 4 actions in **Behavior → Actions**:
   - Row should appear in `Expenses`, staging clears  
 - Select **Income** → repeat  
 
-| ![First](Captura_701.png) | ![Second](Captura_702.png) |
+| ![First](prints/Captura_701.png) | ![Second](prints/Captura_702.png) |
 |----------------------------------|-----------------------------------|
 
 
