@@ -147,7 +147,7 @@ Create 4 actions in **Behavior → Actions**:
 
 ---
 
-## In summanry
+## In Summary
 
 You now have:  
 - A fast, structured data entry app  
