@@ -103,7 +103,7 @@ For the remaining columns apply the following configurations
 - **Type**  
   - Type: Enum  
   - Input mode: Dropdown  
-  - **Valid_If**:  This will make the rows in `ExpensesTypes` and `IncomeTypes` appear in a drowmdown list for input 
+  - **Valid_If**:  This will make the rows in `ExpensesTypes` and `IncomeTypes` appear in a dropdown list for input 
     ```appsheet
     SWITCH(
       [Mode],
@@ -116,8 +116,15 @@ For the remaining columns apply the following configurations
 - **Value** → Decimal
   
 - **Date** → Date  
-  - Initial value: `TODAY()`  
+  - Initial value: `TODAY()`
+ 
+For `Expenses` and `Income` tables, do
 
+- **Value** → Decimal
+  
+- **Date** → Date  
+
+Make sure you 'Save' on the top right corner (You may see a warning for the **Type** column in the `Staging` table. This can be safely ignored since the dropdown values are controlled by the `Valid_If` expression)
 ---
 
 ## Step 3: Build the Form  
