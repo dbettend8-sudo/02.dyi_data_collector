@@ -62,10 +62,23 @@ Your file should contain five tabs with these headers:
 
 ## Step 1: Connect to AppSheet
 
-- Go to [AppSheet](https://www.appsheet.com/)  
-- **Start with your own data** → select your spreadsheet  
-- In **Data → Tables**, add all 5 sheets  
-- Regenerate each table so AppSheet recognizes the columns  
+- Go to [AppSheet](https://www.appsheet.com/); Sign-in with the uisng Google and sleect the same google account you used to store the Google Sheet document
+<img src="prints/Captura_04.png" alt="Pic" width="50%"/>
+
+- Lets add the documant as a Database. Go to **Import from Sheets** and select your spreadsheet
+<img src="prints/Captura_05.png" alt="Pic" width="50%"/>
+
+- You should see it under Databases.
+<img src="prints/Captura_06.png" alt="Pic" width="50%"/>
+
+- Now we move to create the the App, we'll use the database we just created. Go to **Start with existing data**
+<img src="prints/Captura_07.png" alt="Pic" width="50%"/>
+
+- Then name it.
+<img src="prints/Captura_08.png" alt="Pic" width="50%"/>
+
+- Choose AppSheet database and find your data. After that **Create app**
+<img src="prints/Captura_09.png" alt="Pic" width="50%"/>
 
 ![screenshot of appsheet tables](prints/Captura_2.png)
 
