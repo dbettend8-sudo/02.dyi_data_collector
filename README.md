@@ -77,11 +77,10 @@ Your file should contain five tabs with these headers:
 - Then name it.
 <img src="prints/Captura_08.png" alt="Pic" width="50%"/>
 
-- Choose AppSheet database and find your data. After that **Create app**
-<img src="prints/Captura_09.png" alt="Pic" width="50%"/>
+- Choose AppSheet database and find your data. After that **Create app**. After that you should see something like this:
+<img src="prints/Captura_0999.png" alt="Pic" width="50%"/>
 
-![screenshot of appsheet tables](prints/Captura_2.png)
-
+- You'll see a preview of your App on the rigth
 ---
 
 ## Step 2: Configure Columns  
