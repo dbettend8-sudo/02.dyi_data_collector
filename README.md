@@ -53,7 +53,7 @@ Your file should contain five tabs with these headers:
 <img src="prints/Captura_03.png" alt="Pic" width="45%"/>
 
 #### Clean and customize
-- Delete any dummy rows from `Expenses` and `Income` (keep the header row). Also review categories in `ExpensesTypes` and `IncomeTypes` and edit to fit your needs. This will appear in a dropdown list on th final App.
+- Delete any dummy rows from `Expenses` and `Income` (keep the header row). Also review categories in `ExpensesTypes` and `IncomeTypes` and edit to fit your needs. The categories you chose here are going to be the ones availble on th final App so chosse wisely
 
 | ![First](prints/Captura_1004.png) | ![Second](prints/Captura_1005.png) |
 |----------------------------------|-----------------------------------|
@@ -65,7 +65,7 @@ Your file should contain five tabs with these headers:
 - Go to [AppSheet](https://www.appsheet.com/); Sign-in with the uisng Google and sleect the same google account you used to store the Google Sheet document
 <img src="prints/Captura_04.png" alt="Pic" width="50%"/>
 
-- Lets add the documant as a Database. Go to **Import from Sheets** and select your spreadsheet
+- Lets add the Google Sheet as a database. Go to **Import from Sheets** and select your spreadsheet
 <img src="prints/Captura_05.png" alt="Pic" width="50%"/>
 
 - You should see it under Databases.
@@ -80,12 +80,12 @@ Your file should contain five tabs with these headers:
 - Choose AppSheet database and find your data. After that **Create app**. After that you should see something like this:
 <img src="prints/Captura_0999.png" alt="Pic" width="50%"/>
 
-- You'll see a preview of your App on the rigth
+- You'll see a preview of your App on the right but before you start working o that we need to do some configurations.
 ---
 
 ## Step 2: Configure Columns  
 
-### In `Staging`  
+#### In `Staging`  
 
 - **Mode**  
   - Type: Enum  
