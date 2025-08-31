@@ -77,27 +77,33 @@ Your file should contain five tabs with these headers:
 - Then name it.
 <img src="prints/Captura_08.png" alt="Pic" width="50%"/>
 
-- Choose AppSheet database and find your data. After that **Create app**. After that you should see something like this:
+- Choose AppSheet database and find your data. After that **Create app**. You should then see something like this:
 <img src="prints/Captura_0999.png" alt="Pic" width="50%"/>
 
-- You'll see a preview of your App on the right but before you start working o that we need to do some configurations.
+- Your App is live now, you can see a preview of it on the right. Before starting to work o it we need to do some configurations first.
 ---
 
 ## Step 2: Configure Columns  
+On the right side panel, select **Data** and you can configure tables individually. Sellect the `Staging` table and edit the **Mode** columns.  
 
-#### In `Staging`  
+<img src="prints/Captura_011.png" alt="Pic" width="50%"/>
 
 - **Mode**  
   - Type: Enum  
-  - Values: `Expenses`, `Income`  
-  - Input mode: Buttons  
+  - Values: add `Expenses`, `Income`  
+  - Input mode: Buttons
+
+<img src="prints/Captura_0121.png" alt="First screenshot" width="35%"/>  
+<img src="prints/Captura_0122.png" alt="Second screenshot" width="35%"/>
+
+For the remaining columns apply the following configurations
 
 - **Label** → Text  
 
 - **Type**  
   - Type: Enum  
   - Input mode: Dropdown  
-  - **Valid_If**:  
+  - **Valid_If**:  This will make the rows in `ExpensesTypes` and `IncomeTypes` appear in a drowmdown list for input 
     ```appsheet
     SWITCH(
       [Mode],
@@ -107,12 +113,10 @@ Your file should contain five tabs with these headers:
     )
     ```
 
-- **Value** → Decimal (or Price)  
-
+- **Value** → Decimal
+  
 - **Date** → Date  
   - Initial value: `TODAY()`  
-
-<img src="prints/Captura_3.png" alt="Capture" width="80%"/>
 
 ---
 
