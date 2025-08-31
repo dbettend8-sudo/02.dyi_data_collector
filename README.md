@@ -125,6 +125,7 @@ For `Expenses` and `Income` tables, do
 - **Date** → Date  
 
 Make sure you 'Save' on the top right corner (You may see a warning for the **Type** column in the `Staging` table. This can be safely ignored since the dropdown values are controlled by the `Valid_If` expression)
+
 ---
 
 ## Step 3: Build the Form  
