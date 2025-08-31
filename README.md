@@ -24,20 +24,47 @@ No code required!
 
 ---
 
-## Resources
+## Step 0: Set up the database
 
-For the "data base" We'll use and Google Sheet document with the following structure: 
+Before building the app, create the Google Sheets file that will act as your database.
 
-- 1 document with 5 tabs:  
-  - `Expenses` → for spending  
-  - `Income` → for earnings  
-  - `Staging` → temporary input buffer   
-  - `ExpensesTypes` → distinct expense types  
-  - `IncomeTypes` → distinct income types  
+### A. Prepare your browser
+1. Open a second browser window or profile and sign in to your [Google Drive](https://drive.google.com/).
+2. Keep it open. This avoids account confusion when you follow the template link.
 
-You can use this link to make a copy of the document in your google account. Make sure you enable editing and delete the dummy data from sheets Income/Expenses.
+### B. Make your own copy of the template
+- Template link (forces a personal copy):  
+  [Create your copy of the Google Sheet](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy)
 
-([https://docs.google.com/spreadsheets/d/FILE_ID/copy](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy))
+What happens:
+- Google will prompt “Make a copy.” Click it.  
+- The file is saved to **your** Drive under your account (private by default).
+
+Recommended:
+- Rename the file (e.g., `Personal-Finance-DB`).
+- Move it to a folder you control.
+
+[insert screenshot: copy dialog]  
+`![Make a copy](prints/template-copy.png)`
+
+### C. Confirm the structure
+Your file should contain five tabs with these headers:
+
+- `Expenses`: `Date | Label | Type | Value`
+- `Income`: `Date | Label | Type | Value`
+- `Staging`: `Mode | Date | Label | Type | Value`
+- `ExpensesTypes`: `Expenses Type`
+- `IncomeTypes`: `Income Type`
+
+[insert screenshot: bottom tab bar]  
+`![Sheet tabs](prints/sheet-tabs.png)`
+
+### D. Clean and customize
+1. Delete any dummy rows from `Expenses` and `Income` (keep the header row).
+2. Review categories in `ExpensesTypes` and `IncomeTypes` and edit to fit your needs.
+   - If your template uses formulas to auto-build these lists, leave the formulas in place or replace them with your own values.
+
+
 
 While you are at it confirm the categories on the IncomeTypes/ExpensesTypes sheets; costumized them to feet your needs.
 
