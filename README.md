@@ -28,20 +28,20 @@ No code required!
 
 Before building the app, create the Google Sheets file that will act as your database.
 
-#### A. Prepare your browser
+#### Prepare your browser
 1. Open a second browser window or profile and sign in to your [Google Drive](https://drive.google.com/).
 2. Keep it open. This avoids account confusion when you follow the template link.
 
-#### B. Make your own copy of the template
-- We build a template document you can copy to your account by pressing this [Template link](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy); Google will prompt “Make a copy.” Click it.  
+#### Make your own copy of the template
+- I've built a template document you can copy to your account by pressing this [Template link](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy); Google will prompt “Make a copy.” Click it.  
 <img src="prints/Captura_01.png" alt="Pic" width="35%"/>
-- The file is saved to **your** Drive under your account (private by default). You can chnage the file name and location. This will not break any future connections since the app will connec to the file through "FILE_ID"
+
+- The file is saved to **your** Drive under your account (private by default). You can chnage the file name and location. This will not break any future connections since the app will connec to the file through "FILE_ID".
+<img src="prints/Captura_021.png" alt="First screenshot" width="45%"/>  
+<img src="prints/Captura_022.png" alt="Second screenshot" width="45%"/>
 
 
-[insert screenshot: copy dialog]  
-`![Make a copy](prints/template-copy.png)`
-
-### C. Confirm the structure
+#### Confirm the structure
 Your file should contain five tabs with these headers:
 
 - `Expenses`: `Date | Label | Type | Value`
@@ -50,20 +50,14 @@ Your file should contain five tabs with these headers:
 - `ExpensesTypes`: `Expenses Type`
 - `IncomeTypes`: `Income Type`
 
-[insert screenshot: bottom tab bar]  
-`![Sheet tabs](prints/sheet-tabs.png)`
+<img src="prints/Captura_03.png" alt="Pic" width="45%"/>
 
-### D. Clean and customize
-1. Delete any dummy rows from `Expenses` and `Income` (keep the header row).
-2. Review categories in `ExpensesTypes` and `IncomeTypes` and edit to fit your needs.
-   - If your template uses formulas to auto-build these lists, leave the formulas in place or replace them with your own values.
-
-
-
-While you are at it confirm the categories on the IncomeTypes/ExpensesTypes sheets; costumized them to feet your needs.
+#### Clean and customize
+- Delete any dummy rows from `Expenses` and `Income` (keep the header row). Also review categories in `ExpensesTypes` and `IncomeTypes` and edit to fit your needs. This will appear in a dropdown list on th final App.
 
 | ![First](prints/Captura_1004.png) | ![Second](prints/Captura_1005.png) |
 |----------------------------------|-----------------------------------|
+
 ---
 
 ## Step 1: Connect to AppSheet
