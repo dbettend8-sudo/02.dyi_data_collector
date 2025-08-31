@@ -28,24 +28,15 @@ No code required!
 
 Before building the app, create the Google Sheets file that will act as your database.
 
-### A. Prepare your browser
+#### A. Prepare your browser
 1. Open a second browser window or profile and sign in to your [Google Drive](https://drive.google.com/).
 2. Keep it open. This avoids account confusion when you follow the template link.
 
-### B. Make your own copy of the template
-- Template link (forces a personal copy):  
-  [Create your copy of the Google Sheet](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy)
+#### B. Make your own copy of the template
+- We build a template document you can copy to your account by pressing this [Template link](https://docs.google.com/spreadsheets/d/1-7r4feTc4ek_SCIUcxHISn6DSkw-5M9H1cIISFR-xnI/copy); Google will prompt “Make a copy.” Click it.  
+<img src="prints/Captura_01.png" alt="Pic" width="35%"/>
+- The file is saved to **your** Drive under your account (private by default). You can chnage the file name and location. This will not break any future connections since the app will connec to the file through "FILE_ID"
 
-What happens:
-- Google will prompt “Make a copy.” Click it.  
-
-<img src="prints/Capture_01.png" alt="Pic" width="50%"/>
-
-- The file is saved to **your** Drive under your account (private by default).
-
-Recommended:
-- Rename the file (e.g., `Personal-Finance-DB`).
-- Move it to a folder you control.
 
 [insert screenshot: copy dialog]  
 `![Make a copy](prints/template-copy.png)`
