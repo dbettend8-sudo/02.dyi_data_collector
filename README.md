@@ -38,6 +38,9 @@ Before building the app, create the Google Sheets file that will act as your dat
 
 What happens:
 - Google will prompt “Make a copy.” Click it.  
+
+<img src="prints/Capture_01.png" alt="Pic" width="50%"/>
+
 - The file is saved to **your** Drive under your account (private by default).
 
 Recommended:
