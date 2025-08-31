@@ -10,14 +10,17 @@ The goal is to make expense and income logging effortless, so data quality stays
 
 ## All you need
 
-- A **Google account** (free) 
-- Access to **Google Sheets**
-- An **AppSheet account** (linked to your Google account, free tier works)  
-- 30 minutes of focused time  
+- A **Google account** – free, and gives you access to all the services needed  
+- Access to **Google Sheets** – we’ll create a single Google Sheets file with several tabs to function as your database
+- An **AppSheet account** – the free tier lets you build an app you can use on your phone to write data directly to the spreadsheet  
+- 30 minutes of focused time 
 
 No code required!
 
-<img src="prints/Captura_1.png" alt="Capture" width="85%"/>
+
+| ![First](prints/Captura_701.png) | ![Second](prints/Captura_702.png) |
+|----------------------------------|-----------------------------------|
+
 
 ---
 
