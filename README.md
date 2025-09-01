@@ -184,7 +184,7 @@ By now this App will write a row to the `Staging` table whenever you press **Sav
 
 By the end it should look something like this
 
-<img src="prints/Captura_6.png" alt="Capture" width="70%"/>
+<img src="prints/Captura_5.png" alt="Capture" width="65%"/>
 
 ---
 
@@ -195,7 +195,7 @@ To wrap it up, you'll make it so that the **Save** button activates our  `Submit
 - Under **Event actions → Form Saved** select `Submit`  
 - Set **Auto save = ON** for smoother experience  
 
-<img src="prints/Captura_6.png" alt="Capture" width="70%"/>
+<img src="prints/Captura_6.png" alt="Capture" width="65%"/>
 
 ---
 
