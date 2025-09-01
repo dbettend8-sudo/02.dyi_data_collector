@@ -103,13 +103,11 @@ For the remaining columns apply the following configurations
 - **Type**  
   - Type: Enum  
   - Input mode: Dropdown  
-  - **Valid_If**:  This will make the rows in `ExpensesTypes` and `IncomeTypes` appear in a dropdown list for input 
+  - **Valid_If**:  This will make the rows in `ExpensesTypes` and `IncomeTypes` appear in a dropdown list for input on the final App.
     ```appsheet
-    SWITCH(
-      [Mode],
-      "Expenses", SORT(ExpensesTypes[Expenses Type]),
-      "Income",   SORT(IncomeTypes[Income Type]),
-      LIST()
+    SORT(
+        ExpensesTypes[Expenses Type] 
+        + IncomeTypes[Income Type]
     )
     ```
 
@@ -129,15 +127,24 @@ Make sure you 'Save' on the top right corner (You may see a warning for the **Ty
 ---
 
 ## Step 3: Build the Form  
+With the configs done you can now work on the actual App on the **view** menu at the left hand panel.
 
-- Go to **UX → Views → + New view**  
+<img src="prints/Captura_013.png" alt="First screenshot" width="35%"/>  
+
+You'll find some default views already. You can delete them if you want. Then
+
+- Select **New view**  
   - Name: `Add Row`  
   - For this data: `Staging`  
   - View type: Form  
 
-- Column order: `Mode → Label → Type → Value → Date`  
+<img src="prints/Captura_014.png" alt="First screenshot" width="70%"/>  
 
-![screenshot of form view](prints/Captura_41.png)
+You'll see a preview on the right
+
+- Scroll down to set Column order: `Mode → Type → Value → Label → Date`  
+
+<img src="prints/Captura_015.png" alt="First screenshot" width="35%"/>  
 
 ---
 
