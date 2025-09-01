@@ -150,34 +150,48 @@ You'll see a preview on the right
 
 ## Step 4: Add the Actions  
 
-Create 4 actions in **Behavior → Actions**:  
+By now this App will write a row to the `Staging` table whenever you press **Save**. We are not nished though. We need to add **Actions** so thta the correct information is moved to either the  `Expenses` or `Income` table. 
 
-1. **Add to Expenses**  
+- Select the **Actions** menu at the left hand panel.
+
+<img src="prints/Captura_018.png" alt="First screenshot" width="35%"/>  
+
+- Create 4 actions:  
+
+1. Name: **Add to Expenses**  
    - For: `Staging`  
    - Do this: *Data: add new row to another table* (`Expenses`)  
    - Map: Date=[Date], Label=[Label], Type=[Type], Value=[Value]  
-   - Only if: `[Mode]="Expenses"`  
+   - Only if this condition is true: `[Mode]="Expenses"`  
 
-2. **Add to Income**  
-   - Same, target = `Income`  
-   - Only if: `[Mode]="Income"`  
+<img src="prints/Captura_0201.png" alt="First screenshot" width="45%"/>  
+<img src="prints/Captura_0202.png" alt="Second screenshot" width="45%"/>
 
-3. **Delete Staging row**  
+2. Name: **Add to Income**
+   - For: `Staging`  
+   - Do this: *Data: add new row to another table* (`Income`)  
+   - Map: Date=[Date], Label=[Label], Type=[Type], Value=[Value]  
+   - Only if this condition is true: `[Mode]="Income"`  
+
+4. Name: **Delete Staging row**  
    - For: `Staging`  
    - Do this: *Data: delete this row*  
 
-4. **Submit (Grouped)**  
+5. Name: **Submit**  
    - For: `Staging`  
    - Do this: *Grouped: execute a sequence of actions*  
    - Actions: Add to Expenses, Add to Income, Delete Staging  
 
-![screenshot of actions list](prints/Captura_5.png)
+By the end it should look something like this
+
+<img src="prints/Captura_6.png" alt="Capture" width="70%"/>
 
 ---
 
 ## Step 5: Hook Submit to the Form  
+To wrap it up, you'll make it so that the **Save** button activates our  `Submit`  **Action**
 
-- Go to **UX → Views → Add Row (Form)**  
+- Go to **UX → Views → Add Row**  
 - Under **Event actions → Form Saved** select `Submit`  
 - Set **Auto save = ON** for smoother experience  
 
