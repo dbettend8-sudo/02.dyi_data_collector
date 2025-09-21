@@ -102,14 +102,15 @@ For the remaining columns apply the following configurations
 
 - **Type**  
   - Type: Enum  
-  - Input mode: Dropdown  
-  - **Valid_If**:  This will make the rows in `ExpensesTypes` and `IncomeTypes` appear in a dropdown list for input on the final App.
+  - Input mode: Dropdown
+  - Find **Valid_If**: Insaert this code to make the rows in `ExpensesTypes` and `IncomeTypes` appear in a dropdown list for input on the final App.
     ```appsheet
     SORT(
         ExpensesTypes[Expenses Type] 
         + IncomeTypes[Income Type]
     )
     ```
+<img src="prints/Captura_111.png" alt="Pic" width="50%"/>
 
 - **Value** → Decimal
   
@@ -133,7 +134,7 @@ With the configs done you can now work on the actual App on the **view** menu at
 
 You'll find some default views already. You can delete them if you want. Then
 
-- Select **New view**  
+- Go to Views -> Primary Navigation -> + Add View do create a **New view**  
   - Name: `Add Row`  
   - For this data: `Staging`  
   - View type: Form  
