@@ -220,7 +220,7 @@ To wrap it up, you'll make it so that the **Save** button activates our  `Submit
 
 - *Open* - You'll see differnet views
   
-<img src="prints/Captura_222.png" alt="Capture" width="20%"/>
+<img src="prints/Captura_222.png" alt="Capture" width="30%"/>
 
 - Use *Add Row* and you''l see the same behaviour as the local test
 
