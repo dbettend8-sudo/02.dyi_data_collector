@@ -200,7 +200,7 @@ To wrap it up, you'll make it so that the **Save** button activates our  `Submit
 
 ---
 
-## Step 6: Test  
+## Step 6: Test Locally
 
 - Open the app preview (phone view)  
 - Select **Expenses** → fill out form → Save  
@@ -210,7 +210,23 @@ To wrap it up, you'll make it so that the **Save** button activates our  `Submit
 | ![First](prints/Captura_701.png) | ![Second](prints/Captura_702.png) |
 |----------------------------------|-----------------------------------|
 
+---
 
+## **Final** Step 7: Move it to mobile!
+
+- Install Appsheet on your mobile
+  
+<img src="prints/Captura_333.jpeg" alt="Capture" width="25%"/>
+
+- *Open* - You'll see differnet views
+  
+<img src="prints/Captura_222.png" alt="Capture" width="20%"/>
+
+- Use *Add Row* and you''l see the same behaviour as the local test
+
+| ![First](prints/Captura_701.png) | ![Second](prints/Captura_702.png) |
+|----------------------------------|-----------------------------------|
+ 
 ---
 
 ## In Summary
@@ -219,6 +235,7 @@ You now have:
 - A fast, structured data entry app  
 - A clean database in Google Sheets  
 - Categories pulled dynamically from lookup tables  
+Allowing you to collect data on the fly! This is extremely important if you value data quality... Trust me :D
 
 ---
 
